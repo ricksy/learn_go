@@ -1,7 +1,6 @@
-package main
+package ch1
 
-import "fmt"
-
-func main() {
-	fmt.Println("Hello, world!")
+// BestMascot returns the best mascot.
+func BestMascot() string {
+	return "Gopher"
 }
